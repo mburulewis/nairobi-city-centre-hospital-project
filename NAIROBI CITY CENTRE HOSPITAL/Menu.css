@@ -1,0 +1,34 @@
+#Menu ul {
+margin:0;
+padding:0;
+}
+#Menu{
+      height:90px;
+      background-color:white;
+}
+#Menu li {
+list-style-type:none;
+float:left;
+display:block;
+width:150px;
+height:90px;
+text-align:left;
+line-height:20px;
+font-family:Tahoma,Geneva,sans-serif;
+font-size:17px;
+background-color: green;
+}
+
+#Menu li a {
+text-decoration:none;
+color:#FFF;
+text-align: center;
+}
+
+#Menu li:Hover{
+background-color:#005600;
+}
+
+#Menu li ul { display:none; position:absolute; } 
+#Menu li:hover ul{ display:block; background:green; height:auto; width:8em; } 
+#Menu li ul li{ clear:both; border-style:none;}
